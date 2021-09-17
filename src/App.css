@@ -1,38 +1,147 @@
-.App {
+body {
+  font-family: "Pokemon Solid", sans-serif;
+}
+.title {
+  color: gold;
+  -webkit-text-stroke: 5px darkblue;
+  letter-spacing: 7px;
+}
+.card {
+  height: 400px;
+}
+.presentation {
+  text-align: center;
+  width: 100%;
+  font-size: 28px;
+}
+.close:hover {
+  display: none;
+}
+.close:hover .open {
+  visibility: visible;
+}
+
+.image-card {
+  width: 100%;
+}
+
+.image-card img {
+  width: 100%;
+}
+
+.formas {
+  width: 100%;
+}
+.formas h1 {
+  color: black;
+}
+.buttons {
+  text-align: center;
+}
+.formas button {
+  margin: 5px;
+  font-size: 25px;
+  background-color: lightblue;
+  padding: 5px;
+}
+
+.types {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.typeOne,
+.typeTwo {
+  font-size: 25px;
+  background-color: lightblue;
+  padding: 7px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.grass {
+  background-color: green;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.bug {
+  background-color: lightgreen;
+}
+.dark {
+  background-color: black;
+  color: white;
+}
+.dragon {
+  background-color: rgb(0, 0, 250);
+  color: white;
+}
+.electric {
+  background-color: yellow;
+}
+.fairy {
+  background-color: lightpink;
+}
+.fighting {
+  background-color: rgb(204, 22, 22);
+  color: white;
+}
+.fire {
+  background-color: orangered;
+  color: white;
+}
+.flying {
+  background-color: skyblue;
+}
+.ghost {
+  background-color: rgb(67, 5, 138);
+  color: white;
+}
+.ground {
+  background-color: sandybrown;
+}
+.ice {
+  background-color: lightskyblue;
+}
+.normal {
+  background-color: lightslategray;
+}
+.poison {
+  background-color: purple;
+  color: white;
+}
+.psychic {
+  background-color: rgb(245, 0, 171);
+  color: white;
+}
+.rock {
+  background-color: brown;
+}
+.steel {
+  background-color: grey;
+}
+.water {
+  background-color: rgb(71, 71, 248);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.progress-div {
+  background-color: lightblue;
+  height: 25px;
+  border-radius: 25%;
+  margin: 3px;
+  width: 98%;
+}
+.progress {
+  background-color: blue;
+  height: 100%;
+  text-align: end;
+  border-radius: 25%;
+  max-width: 100%;
+  position: relative;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.white {
+  color: white;
+}
+p {
+  color: black;
+}
+.stat {
+  letter-spacing: 2px;
+  margin-left: 4px;
 }
